@@ -11,6 +11,7 @@ function Navbar() {
             <Link to="/usuarios"><button>Usuários</button></Link>
             <Link to="/categorias"><button>Categorias</button></Link>
             <Link to="/transacoes"><button>Transações</button></Link>
+            <Link to="/usuarios/totais"><button>Totais</button></Link>
 
 
         </nav>

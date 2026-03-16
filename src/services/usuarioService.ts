@@ -42,3 +42,10 @@ export async function deletarUsuario(id: string): Promise<ApiResponse> {
     })
     return response.json()
 }
+// busca os totais de receitas e despesas por usuário para exibir 
+export async function buscarTotaisPorUsuario() {
+    const response = await fetch(`${API_URL}/totais`, {
+        method: "GET"
+    })
+    return response.json()
+}

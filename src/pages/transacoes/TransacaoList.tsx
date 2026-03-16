@@ -35,6 +35,7 @@ function TransacaoList() {
                     <tr>
                         <th>Descrição</th>
                         <th>Valor</th>
+                        <th>Tipo</th>
                         <th>Usuário</th>
                     </tr>
                 </thead>
@@ -47,6 +48,7 @@ function TransacaoList() {
 
                             <td>{t.descricao}</td>
                             <td>{t.valor}</td>
+                            <td>{t.tipo === "1" ? "Despesa" : "Receita"}</td>
                             <td>{t.usuario?.nome}</td>
 
                         </tr>

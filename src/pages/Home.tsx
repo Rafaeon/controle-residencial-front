@@ -25,6 +25,11 @@ function Home() {
                     <h3>Transações</h3>
                     <p>Acompanhe receitas e despesas</p>
                 </Link>
+                <Link to="/usuarios/totais" className="home-card">
+                    <div className="home-card-icon">📊</div>
+                    <h3>Totais</h3>
+                    <p>Veja o resumo financeiro</p>
+                </Link>
             </div>
         </main>
     )

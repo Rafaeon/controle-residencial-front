@@ -7,6 +7,7 @@ import CategoriaList from "../pages/categorias/CategoriaList"
 import CategoriaCreate from "../pages/categorias/CategoriaCreate"
 import TransacaoList from "../pages/transacoes/TransacaoList"
 import TransacaoCreate from "../pages/transacoes/TransacaoCreate"
+import UsuarioTotais from "../pages/usuarios/UsuarioTotais"
 
 // define todas as rotas da aplicação
 function AppRoutes() {
@@ -17,6 +18,7 @@ function AppRoutes() {
 
             <Route path="/" element={<Home />} />
             <Route path="/usuarios" element={<UsuarioList />} />
+            <Route path="/usuarios/totais" element={<UsuarioTotais />} />
             <Route path="/usuarios/novo" element={<UsuarioCreate />} />
             <Route path="/usuarios/editar/:id" element={<UsuarioEdit />} />
             <Route path="/categorias" element={<CategoriaList />} />
